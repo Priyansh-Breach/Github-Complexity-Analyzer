@@ -1,8 +1,14 @@
+import subprocess
+
+# Define the package names you want to install
+packages = ["requests", "numpy"]
+
+# Iterate over the package names and run pip install for each package
+for package in packages:
+    subprocess.check_call(["pip", "install", package])
 import requests
-import json
 import pyphen
 import openai
-import traceback
 from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder="templates")
