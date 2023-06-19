@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GitHub Repository Analyzer - Results</title>
+</head>
+
+<body>
+    <h1>GitHub Repository Analyzer - Results</h1>
+    <h2>Most Complex Repository: {{ repository.name }}</h2>
+    <h3>Complexity Scores: {{ scores }}</h3>
+    <h3>GPT Analyses:</h3>
+    <ul>
+        {% for analysis in analyses %}
+        <li>{{ analysis }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
