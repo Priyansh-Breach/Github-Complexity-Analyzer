@@ -75,8 +75,7 @@ def evaluate_code(prompt):
         return response.choices[0].message.content.strip() # type: ignore
     except Exception as e:
         print(f"Error occurred: {str(e)}")
-        traceback.print_exc()
-
+        
 def count_syllables(word):
     dic = pyphen.Pyphen(lang='en_US')
     return len(dic.inserted(word).split("-"))
