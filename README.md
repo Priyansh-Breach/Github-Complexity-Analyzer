@@ -1,6 +1,3 @@
-Sure! Here's the code in the form of a `README.md` file:
-
-```markdown
 # GitHub Repository Analyzer
 
 This is a web application that uses the GitHub API and ChatGPT to analyze GitHub user repositories and determine the most complex one based on the number of files and lines of code. The application is built using Flask and Python.
@@ -63,6 +60,5 @@ This application uses ChatGPT, a language model developed by OpenAI. While it tr
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 Please make sure to replace `your_username` in the repository URL with your actual GitHub username, and also replace `YOUR_GITHUB_ACCESS_TOKEN` with your GitHub personal access token in the `config.json` file.
